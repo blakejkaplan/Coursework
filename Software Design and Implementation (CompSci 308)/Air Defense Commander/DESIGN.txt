@@ -1,0 +1,39 @@
+Blake Kaplan
+bjk20
+
+Genre: Top Down Scrolling Shooter
+
+Name: Air Defense Commander
+
+Description: 
+
+You have been promoted to be in charge of air defenses and you are about to face your first true test. 
+Your second in command has just informed you of an incoming aerial attack and paratroopers begin to rain from the sky.
+Your job is to keep your country safe. Fortunately, you have just build a special anti-air cannon.
+Use your fancy new cannon to eliminate the paratroopers before they land on the ground.
+Good luck Commander!
+
+Game modes:
+
+	Protection:
+		
+		Goal - Paratroopers start falling from the sky. The user operates a cannon and must shoot at the paratroopers.
+			Each paratrooper that lands on the ground successfully damages the cannon 25%.
+			Therefore, if 4 paratroopers land successfully, the cannon is destroyed and the player loses.
+			In order to win, the cannon must survive for a minute. As time proceeds, the paratroopers' descents will increase in speed.
+		
+		Mechanics - The cannon is in a fixed location. The player uses their mouse to aim at a paratrooper. When the player clicks, 
+			a projectile will be fired in a straight line trajectory in the direction of the mouse. If the projectile hits a paratrooper,
+			the paratrooper is eliminated.
+	
+	
+	Survival:
+	
+		Goal - Your cannon has been destroyed and the paratroopers keep on falling. You are now on your own with just a gun.
+			Backup will arrive in 1 minute and you must survive until then. However, noticing your time of weakness, the paratroopers 
+			begin to fire back. You must protect yourself with your gun to stay alive. Paratroopers that land will continue to shoot 
+			until you run out of health or you kill them.
+		
+		Mechanics - The player uses the keyboard's directional keys to move a ground soldier left and right. The player also uses the 
+			mouse to aim and fire a projectile in the same manner as the Protection game mode. The player must avoid shots from the 
+			paratroopers while also shooting at them. 
