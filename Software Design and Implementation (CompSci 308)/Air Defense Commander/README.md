@@ -2,27 +2,6 @@
 
 First project for CompSci 308 Spring 2016
 
-### Name:
-Blake Kaplan
-
-### Date started:
-1/15/16
-
-### Date finished:
-1/23/16
-
-### Hours worked:
-20 hours
-
-### Resources used:
-StackOverflow for miscellaneous questions, Google Images for pictures, and Adobe Illustrator to make some graphics
-
-### Main class file:
-Main.java
-
-### Data (non Java) files needed:
-Cannon.png, EnemyShot.png, Paratrooper.png, Shot.png, Soldier.png
-
 ### How to play the game:
 * Protection Mode:
   * Use the mouse to aim the cannon
@@ -62,12 +41,3 @@ Cannon.png, EnemyShot.png, Paratrooper.png, Shot.png, Soldier.png
 
 * Survival Mode:
   * I : Toggle Invincibility
-
-### Known bugs:
-None to my knowledge
-
-### Extra features:
-All features have been described above
-
-### Impressions/Suggestions:
-I really enjoyed this project and I think it really helped me get an introduction to good software design. That said, I think that we would've all benefited from some guidance in learning JavaFX, as I found that there was a steep learning curve. I learned a lot from online Java documentation and online tutorials.
