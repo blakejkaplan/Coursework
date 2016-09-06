@@ -1,5 +1,5 @@
 # Cell Society
-Second Project for CompSci 308 Sprint 2016
+Second Project for CompSci 308 Spring 2016
 
 **Starting the Project:**
 
