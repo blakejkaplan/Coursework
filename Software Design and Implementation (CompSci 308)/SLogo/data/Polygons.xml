@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SLogoState>
+    <Config>
+        <BackgroundColor>255.0 255.0 255.0</BackgroundColor>
+        <PenColor>0.0 0.0 0.0</PenColor>
+        <TurtleImage>tortoise.png</TurtleImage>
+    </Config>
+    <Variables/>
+    <Commands>
+        <Command>
+            <Name>square</Name>
+            <Procedure>to square [ :length ] [ repeat 4 [ right 90  forward :length  ]  ] </Procedure>
+            <NumberOfArguments>1</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>octagon</Name>
+            <Procedure>to octagon [ :length ] [ make :angle quotient 360 8   repeat 8 [ right :angle  forward :length  ]  ] </Procedure>
+            <NumberOfArguments>1</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>hexagon</Name>
+            <Procedure>to hexagon [ :length ] [ make :angle quotient 360 6   repeat 6 [ right :angle  forward :length  ]  ] </Procedure>
+            <NumberOfArguments>1</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>pentagon</Name>
+            <Procedure>to pentagon [ :length ] [ make :angle quotient 360 5   repeat 5 [ right :angle  forward :length  ]  ] </Procedure>
+            <NumberOfArguments>1</NumberOfArguments>
+        </Command>
+    </Commands>
+</SLogoState>

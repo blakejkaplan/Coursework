@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SLogoState>
+    <Config>
+        <BackgroundColor>255.0 255.0 255.0</BackgroundColor>
+        <PenColor>0.0 0.0 0.0</PenColor>
+        <TurtleImage>tortoise.png</TurtleImage>
+    </Config>
+    <Variables/>
+    <Commands>
+        <Command>
+            <Name>square</Name>
+            <Procedure>to square [ ] [ repeat 4 [ forward :distance  right 90  ]  ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>makeTunnel</Name>
+            <Procedure>to makeTunnel [ ] [ pendown  make :distance 50  make :angle 10  to square [ ] [ repeat 4 [ forward :distance  right 90  ]  ]  to tunnel [ ] [ repeat 10 [ square make :distance sum :distance 10   ]  ]  to warp [ ] [ repeat 10 [ square right :angle  make :distance sum :distance 10   ]  ]  clearscreen  tunnel ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>tunnel</Name>
+            <Procedure>to tunnel [ ] [ repeat 10 [ square make :distance sum :distance 10   ]  ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>warp</Name>
+            <Procedure>to warp [ ] [ repeat 10 [ square right :angle  make :distance sum :distance 10   ]  ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+    </Commands>
+</SLogoState>

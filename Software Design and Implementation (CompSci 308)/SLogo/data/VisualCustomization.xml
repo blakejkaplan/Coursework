@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SLogoState>
+    <Config>
+        <BackgroundColor>0 0 255</BackgroundColor>
+        <PenColor>255 0 0</PenColor>
+        <TurtleImage>olaf.png</TurtleImage>
+    </Config>
+    <Variables>
+        <:x>20</:x>
+    </Variables>
+    <Commands>
+        <Command>
+            <Name>moveForwardBy</Name>
+            <Procedure>to moveForwardBy [ :x ] [ pendown  forward :x  ] </Procedure>
+            <NumberOfArguments>1</NumberOfArguments>
+        </Command>
+    </Commands>
+</SLogoState>

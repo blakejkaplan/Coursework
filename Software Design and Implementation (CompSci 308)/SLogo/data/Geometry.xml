@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SLogoState>
+    <Config>
+        <BackgroundColor>255.0 255.0 255.0</BackgroundColor>
+        <PenColor>0.0 0.0 0.0</PenColor>
+        <TurtleImage>tortoise.png</TurtleImage>
+    </Config>
+    <Variables/>
+    <Commands>
+        <Command>
+            <Name>square</Name>
+            <Procedure>to square [ ] [ repeat 4 [ forward 100  right 90  ]  forward 100  ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>circle</Name>
+            <Procedure>to circle [ ] [ repeat 360 [ forward 1  right 1  ]  ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+        <Command>
+            <Name>triangle</Name>
+            <Procedure>to triangle [ ] [ repeat 3 [ forward 50  right 120  ]  ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+    </Commands>
+</SLogoState>

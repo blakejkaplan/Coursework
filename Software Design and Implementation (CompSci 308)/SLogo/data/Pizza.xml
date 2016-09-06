@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SLogoState>
+    <Config>
+        <BackgroundColor>255.0 255.0 255.0</BackgroundColor>
+        <PenColor>0.0 0.0 0.0</PenColor>
+        <TurtleImage>tortoise.png</TurtleImage>
+    </Config>
+    <Variables/>
+    <Commands>
+        <Command>
+            <Name>makePizza</Name>
+            <Procedure>to makePizza [ ] [ pendown  to slice [ ] [ right 30  forward 50  left 105  forward 25  back 25  right 105  back 50  ]  to pizza [ ] [ repeat 12 [ slice ]  ]  pizza ] </Procedure>
+            <NumberOfArguments>0</NumberOfArguments>
+        </Command>
+    </Commands>
+</SLogoState>
